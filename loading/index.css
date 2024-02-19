@@ -11,12 +11,21 @@ body{
     height: 100%;
     background-color: black;
 }
+@keyframes animation {
+    form{
+        filter: hue-rotate(0);
+    }
+    form{
+        filter: hue-rotate(0);
+    }
+}
 .loading{
  position: relative;
  min-height: 100vh;
  width: 100%;
  justify-content: center;
  align-items: center;
+ animation: animate 10s linear infinite;
 }
 .load span{
     position:absolute ;
@@ -37,5 +46,5 @@ body{
     0 0 80px #ffff00,
     0 0 100px #ffff00;
    border-radius: 50%;
-   animation: animate 1s ;
+   animation: animate 2s linear infinite ;
 }
