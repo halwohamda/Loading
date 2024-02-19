@@ -28,7 +28,13 @@ body{
     position: absolute;
     width: 25px;
     height: 25px;
-    background: #fff;
+    background: #ffff00;
     content: '';
-    
+    box-shadow: 0 0 10px #ffff00,
+    0 0 10px #ffff00,
+    0 0 10px #ffff00,
+    0 0 10px #ffff00,
+    0 0 10px #ffff00,
+    0 0 10px #ffff00;
+
 }
