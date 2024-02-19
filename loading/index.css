@@ -31,10 +31,11 @@ body{
     background: #ffff00;
     content: '';
     box-shadow: 0 0 10px #ffff00,
-    0 0 10px #ffff00,
-    0 0 10px #ffff00,
-    0 0 10px #ffff00,
-    0 0 10px #ffff00,
-    0 0 10px #ffff00;
-
+    0 0 20px #ffff00,
+    0 0 40px #ffff00,
+    0 0 60px #ffff00,
+    0 0 80px #ffff00,
+    0 0 100px #ffff00;
+   border-radius: 50%;
+   animation: animate 1s ;
 }
