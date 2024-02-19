@@ -11,7 +11,7 @@ body{
     height: 100%;
     background-color: black;
 }
-@keyframes animation {
+@keyframes anima{
     form{
         filter: hue-rotate(0);
     }
@@ -47,4 +47,13 @@ body{
     0 0 100px #ffff00;
    border-radius: 50%;
    animation: animate 2s linear infinite ;
+   animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+    0%{
+        transform: scale(1);
+    }
+    80%, 100%{
+        transform: scale(1);
+    }
 }
