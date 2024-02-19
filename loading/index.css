@@ -24,3 +24,6 @@ body{
     height: 10px;
     transform: rotate(calc(var(--i)(360deg/20))) translateY(100px);
 }
+.load span::before{
+    
+}
