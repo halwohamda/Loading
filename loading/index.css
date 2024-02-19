@@ -27,7 +27,7 @@ body{
  align-items: center;
  animation: animate 10s linear infinite;
 }
-.load span{
+.load, span{
     position:absolute ;
     width: 10px;
     height: 10px;
